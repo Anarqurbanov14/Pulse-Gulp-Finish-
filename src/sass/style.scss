@@ -1,27 +1,42 @@
-@import 'libs/bootstrap-reboot.min';
-@import 'libs/font';
-@import 'libs/slick';
-@import 'libs/animate';
-
-@import 'base/variables';
-@import 'base/animations';
-* {
-    font-family: 'Museo Sans Cyrl', sans-serif;
-}
+//@import "libs/animate";
+@import "libs/slick";
+@import "libs/bootstrap-reboot.min";
+@import "libs/bootstrap-grid.min";
+@import "base/variables";
+@import "base/mixins";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Great+Vibes&display=swap");
 .container {
-    max-width: 950px;
-    margin: 0 auto;
+  max-width: 1300px;
+  margin: 0 auto;
 }
-@import 'blocks/promo';
-@import 'blocks/header.scss';
-@import 'blocks/buttons';
-@import 'blocks/advantages';
-@import 'blocks/titles';
-@import 'blocks/consultation';
-@import 'blocks/forms';
-@import 'blocks/carousel';
-@import 'blocks/catalog';
-@import 'blocks/feed';
-@import 'blocks/footer';
-@import 'blocks/modal';
-@import 'blocks/pageup';
+* {
+  font-family: "Lato", sans-serif;
+}
+/* font-family: 'Caveat', cursive;
+font-family: 'Great Vibes', cursive; */
+
+@import "blocks/promo";
+@import "blocks/titles";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/welcome";
+@import "blocks/catalog";
+@import "blocks/about";
+@import "blocks/stores";
+@import "blocks/footer";
+@import "blocks/pageup";
+@import "blocks/contact";
+@import "blocks/quality";
+@import "blocks/blog";
+@import "blocks/reserve";
+@import "blocks/club";
+@import "blocks/wine";
+@import "blocks/portfolio";
+@import "blocks/signin";
+@import "blocks/media";
+@import "blocks/shop";
+
+//@import "blocks/hamburger";
+//

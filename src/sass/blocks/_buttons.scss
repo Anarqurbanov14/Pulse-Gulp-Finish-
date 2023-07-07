@@ -1,28 +1,30 @@
 .button {
-    width: 150px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: $main-color;
-    border: none;
-    color: #ffffff;
-    font-size: 12px;
+  width: 250px;
+  height: 60.5px;
+  position: relative;
+  background-color: $main-color;
+  padding: 21px 54px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 4px;
+  background-color: #ffffff46;
+  border: 1px solid transparent;
+
+  &_top {
+    width: 200px;
+    height: 50.5px;
+    font-size: 11px;
+    color: #000;
+    letter-spacing: 4px;
+    border: 1px solid #c96838;
     font-weight: 500;
-    text-transform: uppercase;
-    &_main {
-        margin-top: 67px;
-        width: 300px;
-        height: 50px;
-        font-size: 16px;
+    padding: 12px 36px;
+    background-color: transparent;
+    z-index: 1;
+    padding: 12px 36px 12px 36px;
+    &_white {
+      color: #fff;
     }
-    &_submit {
-        width: 100%;
-        height: 55px;
-        color: #ffffff;
-        font-size: 16px;
-    }
-    &_mini {
-        width: 131px;
-        height: 40px;
-        font-size: 14px;
-    }
+  }
 }

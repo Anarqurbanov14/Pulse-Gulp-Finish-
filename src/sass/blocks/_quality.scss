@@ -1,0 +1,43 @@
+.quality {
+  padding-top: 50px;
+  height: 900px;
+  //background-color: yellow;
+  &__wrapper {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+    column-gap: 50px;
+    &__box1 {
+      img {
+        width: 100%;
+      }
+    }
+    &__box2 {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      grid-template-rows: 2fr 2fr;
+      row-gap: 20px;
+      column-gap: 10px;
+      &__item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+
+        &__img {
+          display: block;
+          margin: 0 auto;
+          padding-top: 5px;
+        }
+        &__title {
+          color: #000;
+          font-size: 22px;
+          padding-bottom: 25px;
+        }
+        &__subtitle {
+          color: #666;
+          font-size: 14px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}

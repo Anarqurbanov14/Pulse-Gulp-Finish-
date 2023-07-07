@@ -1,0 +1,121 @@
+@media (max-width: 1402px) {
+}
+@media (max-width: 1200px) {
+  .stores {
+    &__card {
+      width: 900px;
+    }
+  }
+  .welcome {
+    &__wrapper {
+      display: grid;
+      grid-template-columns: 2fr 7fr;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .promo {
+    &__header {
+      font-size: 48px;
+    }
+    &__subheader {
+      font-size: 40px;
+    }
+    .hamburger {
+      display: none;
+    }
+  }
+  .header__menu {
+    width: 400px;
+  }
+  .stores {
+    &__card {
+      width: 800px;
+    }
+  }
+  .welcome {
+    &__title {
+      font-size: 10px;
+      letter-spacing: 2px;
+      color: #000;
+      padding-bottom: 20px;
+    }
+    &__text {
+      letter-spacing: 1px;
+      font-size: 14px;
+      line-height: 22px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    &__wrapper {
+      display: grid;
+      grid-template-columns: 2fr 6fr;
+      //grid-template-columns: 360px 900px;
+      //grid-template-rows: minmax(205px, auto); //minmax(285px, auto);
+      //grid-auto-rows: minmax(205px, auto);
+      column-gap: 40px;
+      //row-gap: 40px;
+      //justify-content: space-between;
+    }
+
+    &__images {
+      display: grid;
+      grid-template-columns: 4fr 2fr;
+      grid-template-rows: 48px 220px;
+      column-gap: 30px;
+      &__one {
+        grid-row-start: 1;
+        grid-row-end: 4;
+        &_img {
+          height: 527px;
+          width: 400px;
+        }
+      }
+      &__thirt {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .promo {
+      .header__menu {
+        width: 300px;
+      }
+    }
+    .catalog {
+    }
+    .button_top {
+      width: 180px;
+      font-size: 9px;
+    }
+    .stores {
+      &__card {
+        width: 550px;
+        padding: 45px 10px 0px 10px;
+      }
+    }
+    .reserve__bg__endtext {
+      font-size: 70px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .promo {
+      .header__menu {
+        width: 300px;
+        display: none;
+      }
+    }
+    .stores {
+      &__card {
+        width: 490px;
+        padding: 5px 10px 0px 10px;
+      }
+    }
+  }
+  /* ------------- */
+}

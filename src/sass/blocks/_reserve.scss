@@ -1,0 +1,65 @@
+.reserve {
+  position: relative;
+  height: 600px;
+  &__bg {
+    padding-top: 100px;
+    height: 510px;
+    background: url("../../img/bg/twoobg.jpg") center (center/cover) no-repeat;
+    &__title {
+      text-align: center;
+      color: #fff;
+      padding-bottom: 20px;
+      font-size: 11px;
+      font-family: "Poppins", sans-serif;
+      letter-spacing: 4px;
+    }
+    &__subtitle {
+      display: block;
+      margin: 0 auto;
+      max-width: 490px;
+      text-align: center;
+      color: #fff;
+      font-size: 40px;
+      line-height: 49px;
+      padding-bottom: 15px;
+    }
+    &__text {
+      display: block;
+      margin: 0 auto;
+      max-width: 550px;
+      font-size: 16px;
+      padding-bottom: 25px;
+      color: #fff;
+      text-align: center;
+      span {
+        color: #c96838;
+      }
+    }
+    &__button {
+      display: block;
+      margin: 0 auto;
+      width: 300px;
+      height: 60.5px;
+      position: relative;
+      background-color: $main-color;
+      padding: 21px 54px;
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #fff;
+      letter-spacing: 4px;
+      background-color: #ffffff46;
+      border: 1px solid transparent;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+    }
+    &__endtext {
+      position: absolute;
+      right: 70px;
+      bottom: 15px;
+      font-family: "Caveat", cursive;
+      font-size: 98px;
+      color: rgb(241, 55, 55);
+      letter-spacing: 3px;
+    }
+  }
+}

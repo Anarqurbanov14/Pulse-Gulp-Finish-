@@ -1,0 +1,37 @@
+.wine {
+  height: 147px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+    &__box1 {
+      &__photo {
+        img {
+          width: 60%;
+          display: block;
+          margin: 0 auto;
+          padding-top: 40px;
+        }
+      }
+    }
+    &__box2 {
+      padding-top: 100px;
+      &__title {
+        padding-top: 40px;
+        font-size: 25px;
+      }
+      &__subtitle {
+        padding-top: 10px;
+        font-size: 18px;
+      }
+      &__text {
+        padding-top: 15px;
+        font-size: 15px;
+      }
+      &__descr {
+      }
+    }
+  }
+}
